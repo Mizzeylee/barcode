@@ -28,6 +28,7 @@ body {
   align-items: center;
   justify-content: center;
   height: calc(100vh - 1px);
+  
 }
 
 .main {
