@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+img {
+  max-width: 340px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "outfit", sans-serif;
+  background-color: var(--Light-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 1px);
+}
+
+.main {
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.text {
+  color: var(--Grayish-blue);
+  text-align: center;
+}
+
+.main h1 {
+  color: var(--Dark-blue);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 450px) {
+  .main img {
+    width: 350px;
+  }
+}
